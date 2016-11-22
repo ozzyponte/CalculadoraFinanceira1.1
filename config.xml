@@ -1,0 +1,76 @@
+<widget xmlns="http://www.w3.org/ns/widgets" 
+        xmlns:gap="http://phonegap.com/ns/1.0" 
+        id="com.phonegap.helloworld" 
+        version="1.1.0"
+  >
+  <name>Calculadora</name>
+  <description>Sistema de amortização.</description>
+  
+  <author href="http://phonegap.com" email="support@phonegap.com">PhoneGap Team</author>
+  
+  <content src="index.html"/>
+  <icon src="www/icon.png"/>
+
+  <preference name="DisallowOverscroll" value="true"/>
+  <preference name="android-minSdkVersion" value="14"/>
+  
+  <platform name="android">
+    <icon src="www/img/icon/default-ldpi-icon.png" density="ldpi"/>
+    <icon src="www/img/icon/default-mdpi-icon.png" density="mdpi"/>
+    <icon src="www/img/icon/default-hdpi-icon.png" density="hdpi"/>
+    <icon src="www/img/icon/default-xhdpi-icon.png" density="xhdpi"/>
+    <icon src="www/img/icon/default-xxhdpi-icon.png" density="xxhdpi"/>
+    <icon src="www/img/icon/default-xxxhdpi-icon.png" density="xxxhdpi"/>
+    <splash src="www/img/screen/default-land-ldpi-screen.png" density="land-ldpi"/>
+    <splash src="www/img/screen/default-land-mdpi-screen.png" density="land-mdpi"/>
+    <splash src="www/img/screen/default-land-hdpi-screen.png" density="land-hdpi"/>
+    <splash src="www/img/screen/default-land-xhdpi-screen.png" density="land-xhdpi"/>
+    <splash src="www/img/screen/default-land-xxhdpi-screen.png" density="land-xxhdpi"/>
+    <splash src="www/img/screen/default-land-xxxhdpi-screen.png" density="land-xxxhdpi"/>
+    <splash src="www/img/screen/default-port-ldpi-screen.png" density="port-ldpi"/>
+    <splash src="www/img/screen/default-port-mdpi-screen.png" density="port-mdpi"/>
+    <splash src="www/img/screen/default-port-hdpi-screen.png" density="port-hdpi"/>
+    <splash src="www/img/screen/default-port-xhdpi-screen.png" density="port-xhdpi"/>
+    <splash src="www/img/screen/default-port-xxhdpi-screen.png" density="port-xxhdpi"/>
+    <splash src="www/img/screen/default-port-xxxhdpi-screen.png" density="port-xxxhdpi"/>
+  </platform>
+
+  <platform name="wp8">
+    <icon src="www/img/icon/default-xxxhdpi-icon.png" platform="wp8" width="99" height="99"/>
+    <icon src="www/img/icon/default-xxxhdpi-icon.png" platform="wp8" width="159" height="159"/>
+    <splash src="www/img/screen/default-port-xxxhdpi-screen.png" platform="wp8" width="768" height="1280"/>
+  </platform>
+  
+  <platform name="windows">
+    <icon src="www/icon.png"/>
+    <icon src="www/img/icon/default-xxxhdpi-icon.png" platform="windows" width="150" height="150"/>
+    <icon src="www/img/icon/default-xxxhdpi-icon.png" platform="windows" width="30" height="30"/>
+    <icon src="www/img/icon/default-xxxhdpi-icon.png" platform="windows" width="50" height="50"/>
+    <icon src="www/img/icon/default-xxxhdpi-icon.png" platform="windows" width="120" height="120"/>
+    <icon src="www/img/icon/default-xxxhdpi-icon.png" platform="windows" width="44" height="44"/>
+    <icon src="www/img/icon/default-xxxhdpi-icon.png" platform="windows" width="106" height="106"/>
+    <icon src="www/img/icon/default-xxxhdpi-icon.png" platform="windows" width="70" height="70"/>
+    <icon src="www/img/icon/default-xxxhdpi-icon.png" platform="windows" width="71" height="71"/>
+    <icon src="www/img/icon/default-xxxhdpi-icon.png" platform="windows" width="170" height="170"/>
+    <icon src="www/img/icon/default-xxxhdpi-icon.png" platform="windows" width="360" height="360"/>
+    <icon src="www/img/icon/default-xxxhdpi-icon.png" platform="windows" width="310" height="310"/>
+    <icon src="www/img/icon/default-xxxhdpi-icon.png" platform="windows" width="310" height="150"/>
+    <icon src="www/img/icon/default-xxxhdpi-icon.png" platform="windows" width="744" height="360"/>
+    <splash src="www/img/screen/default-port-xxxhdpi-screen.png" platform="windows" width="1152" height="1920"/>
+    <splash src="www/img/screen/default-port-xxxhdpi-screen.png" platform="windows" width="620" height="300"/>
+  </platform>
+  
+  <access origin="*"/>
+  
+  <allow-intent href="http://*/*"/>
+  <allow-intent href="https://*/*"/>
+  <allow-intent href="tel:*"/>
+  <allow-intent href="sms:*"/>
+  <allow-intent href="mailto:*"/>
+  <allow-intent href="geo:*"/>
+  
+  <platform name="android">
+    <allow-intent href="market:*"/>
+  </platform>
+    
+</widget>
